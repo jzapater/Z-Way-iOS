@@ -1,2 +1,6 @@
 Z-Way.xcodeproj/xcuserdata
 Z-Way.xcodeproj/project.xcworkspace/xcuserdata
+Pods/
+Podfile.lock
+*.xcworkspace
+

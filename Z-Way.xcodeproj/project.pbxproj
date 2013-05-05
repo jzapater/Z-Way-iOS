@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12EC2D4E1737140F00E0B6E3 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EC2D4D1737140F00E0B6E3 /* libxml2.2.dylib */; };
 		243BFAF715E4195E00F45D98 /* ZWDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BFAF615E4195E00F45D98 /* ZWDataStore.m */; };
 		243BFAF915E41D1900F45D98 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243BFAF815E41D1900F45D98 /* CoreData.framework */; };
 		243BFAFC15E4223000F45D98 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 243BFAFA15E4223000F45D98 /* Model.xcdatamodeld */; };
@@ -72,7 +73,6 @@
 		2492FD4215DF3A6000D631BF /* ZWRunCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2492FD4115DF3A6000D631BF /* ZWRunCommand.m */; };
 		2492FD6415E40FDC00D631BF /* ZWProfilesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2492FD6215E40FDC00D631BF /* ZWProfilesController.m */; };
 		2492FD6D15E417CC00D631BF /* CMProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2492FD6C15E417CC00D631BF /* CMProfile.m */; };
-		24FB74391722AA590031C06B /* libGMGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FB74381722AA050031C06B /* libGMGridView.a */; };
 		24FD17641623748A00AA57DC /* ZWUrlEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24FD17631623748A00AA57DC /* ZWUrlEditCell.xib */; };
 		24FD176A16237D8700AA57DC /* refreshing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FD176916237D8700AA57DC /* refreshing@2x.png */; };
 		24FD176D16237E4C00AA57DC /* arrow-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FD176B16237E4C00AA57DC /* arrow-down@2x.png */; };
@@ -116,33 +116,17 @@
 		24FD17D7162643D200AA57DC /* sensors~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FD17CB162643D200AA57DC /* sensors~ipad.png */; };
 		24FD17D8162643D200AA57DC /* thermostats@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FD17CC162643D200AA57DC /* thermostats@2x~ipad.png */; };
 		24FD17D9162643D200AA57DC /* thermostats~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FD17CD162643D200AA57DC /* thermostats~ipad.png */; };
+		272FBA3004B9415F989A2707 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4587E4B132B8465E803E1862 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		24FB74371722AA050031C06B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 24471D8315ECEDEF0046FF64 /* GMGridView.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78509312149FAC2E000787E4;
-			remoteInfo = GMGridView;
-		};
-		24FB743A1722AA690031C06B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 24471D8315ECEDEF0046FF64 /* GMGridView.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 78509311149FAC2E000787E4;
-			remoteInfo = GMGridView;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		12EC2D4D1737140F00E0B6E3 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		243BFAF515E4195E00F45D98 /* ZWDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDataStore.h; sourceTree = "<group>"; };
 		243BFAF615E4195E00F45D98 /* ZWDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDataStore.m; sourceTree = "<group>"; };
 		243BFAF815E41D1900F45D98 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		243BFAFB15E4223000F45D98 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		243BFAFD15E42B8F00F45D98 /* ZWProfileEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWProfileEditController.h; sourceTree = "<group>"; };
 		243BFAFE15E42B8F00F45D98 /* ZWProfileEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWProfileEditController.m; sourceTree = "<group>"; };
-		24471D8315ECEDEF0046FF64 /* GMGridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GMGridView.xcodeproj; path = GMGridView/GMGridView/GMGridView.xcodeproj; sourceTree = "<group>"; };
 		24471D9015ECF2D90046FF64 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		24471D9115ECF2D90046FF64 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		24471D9415ED043B0046FF64 /* ZWDeviceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDeviceItem.h; sourceTree = "<group>"; };
@@ -283,6 +267,8 @@
 		24FD17CB162643D200AA57DC /* sensors~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sensors~ipad.png"; path = "Z-Way/sensors~ipad.png"; sourceTree = "<group>"; };
 		24FD17CC162643D200AA57DC /* thermostats@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thermostats@2x~ipad.png"; path = "Z-Way/thermostats@2x~ipad.png"; sourceTree = "<group>"; };
 		24FD17CD162643D200AA57DC /* thermostats~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thermostats~ipad.png"; path = "Z-Way/thermostats~ipad.png"; sourceTree = "<group>"; };
+		3475BD1B13054332968CE21F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		4587E4B132B8465E803E1862 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,12 +276,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24FB74391722AA590031C06B /* libGMGridView.a in Frameworks */,
+				12EC2D4E1737140F00E0B6E3 /* libxml2.2.dylib in Frameworks */,
 				243BFAF915E41D1900F45D98 /* CoreData.framework in Frameworks */,
 				246EB12C15DEFAF50099EB7E /* QuartzCore.framework in Frameworks */,
 				246EB0FB15DEF0710099EB7E /* UIKit.framework in Frameworks */,
 				246EB0FD15DEF0710099EB7E /* Foundation.framework in Frameworks */,
 				246EB0FF15DEF0710099EB7E /* CoreGraphics.framework in Frameworks */,
+				272FBA3004B9415F989A2707 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,12 +329,13 @@
 		246EB0EB15DEF0700099EB7E = {
 			isa = PBXGroup;
 			children = (
-				24471D8315ECEDEF0046FF64 /* GMGridView.xcodeproj */,
+				12EC2D4D1737140F00E0B6E3 /* libxml2.2.dylib */,
 				24FD17BC162640F800AA57DC /* res */,
 				246EB10015DEF0710099EB7E /* Z-Way */,
 				246EB10115DEF0710099EB7E /* Supporting Files */,
 				246EB0F915DEF0710099EB7E /* Frameworks */,
 				246EB0F715DEF0710099EB7E /* Products */,
+				3475BD1B13054332968CE21F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -367,6 +355,7 @@
 				246EB0FC15DEF0710099EB7E /* Foundation.framework */,
 				246EB12B15DEFAF50099EB7E /* QuartzCore.framework */,
 				246EB0FA15DEF0710099EB7E /* UIKit.framework */,
+				4587E4B132B8465E803E1862 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -475,14 +464,6 @@
 			name = "Data Model";
 			sourceTree = "<group>";
 		};
-		24FB74341722AA050031C06B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				24FB74381722AA050031C06B /* libGMGridView.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		24FD17BA162640CC00AA57DC /* splash */ = {
 			isa = PBXGroup;
 			children = (
@@ -569,11 +550,11 @@
 				246EB0F215DEF0710099EB7E /* Sources */,
 				246EB0F315DEF0710099EB7E /* Frameworks */,
 				246EB0F415DEF0710099EB7E /* Resources */,
+				85A2488343654357B9CC1679 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				24FB743B1722AA690031C06B /* PBXTargetDependency */,
 			);
 			name = "Z-Way";
 			productName = "Z-Way";
@@ -587,7 +568,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ZW;
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Alex Skalozub";
 			};
 			buildConfigurationList = 246EB0F015DEF0700099EB7E /* Build configuration list for PBXProject "Z-Way" */;
@@ -601,28 +582,12 @@
 			mainGroup = 246EB0EB15DEF0700099EB7E;
 			productRefGroup = 246EB0F715DEF0710099EB7E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 24FB74341722AA050031C06B /* Products */;
-					ProjectRef = 24471D8315ECEDEF0046FF64 /* GMGridView.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				246EB0F515DEF0710099EB7E /* Z-Way */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		24FB74381722AA050031C06B /* libGMGridView.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libGMGridView.a;
-			remoteRef = 24FB74371722AA050031C06B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		246EB0F415DEF0710099EB7E /* Resources */ = {
@@ -703,6 +668,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85A2488343654357B9CC1679 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		246EB0F215DEF0710099EB7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -747,14 +729,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		24FB743B1722AA690031C06B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GMGridView;
-			targetProxy = 24FB743A1722AA690031C06B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		2484C9CE15F5396A008E60EF /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
@@ -775,6 +749,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alexey Skalozub (6FDPS35WWE)";
@@ -791,6 +768,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "186F14B4-FDBB-4033-BC43-D5EE248A127C";
 				SDKROOT = iphoneos;
@@ -805,6 +783,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -814,6 +795,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
@@ -826,20 +808,18 @@
 		};
 		246EB11815DEF0710099EB7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3475BD1B13054332968CE21F /* Pods.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = ../GMGridView;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Z-Way/Z-Way-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					../GMGridView,
-					/opt/local/include/libxml2,
+					"$(inherited)",
+					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = "Z-Way/Z-Way-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lxml2",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -848,20 +828,18 @@
 		};
 		246EB11915DEF0710099EB7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3475BD1B13054332968CE21F /* Pods.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = ../GMGridView;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Z-Way/Z-Way-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					../GMGridView,
-					/opt/local/include/libxml2,
+					"$(inherited)",
+					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = "Z-Way/Z-Way-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lxml2",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
